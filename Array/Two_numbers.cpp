@@ -1,3 +1,4 @@
+
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -11,10 +12,11 @@ class Solution(object):
                 return [i,lookup[target- j] ]
             lookup[j]=i
         return[]    
-        
+      
         
         
 #c++ version 
+
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -27,8 +29,7 @@ public:
         }
         return {};
     }
-};
-        
+};  
         
         
         
